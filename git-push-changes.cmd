@@ -4,3 +4,4 @@ cd ahmadsyarbini.github.io
 git add .
 git commit -m "update"
 git push origin main
+timeout /t 3 /nobreak >nul
