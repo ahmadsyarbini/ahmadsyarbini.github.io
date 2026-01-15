@@ -21,9 +21,8 @@
 2. Put the autounattend.xml file into the `root` of the usb drive. e.g. `F:/`
 3. Boot into usb drive and proceed with reformat and reinstall routine
 
-> The file must be named exactly `autounattend.xml` or else it will not work
-
 >#### Note
+>The file must be named exactly `autounattend.xml` or else it will not work
 >
 >Recheck the xml file in your preferred text editor. For example, lookout for
 >```
