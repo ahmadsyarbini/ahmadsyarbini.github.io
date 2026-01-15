@@ -1,2 +1,3 @@
-# ahmadsyarbini.github.io
-my guide page
+# Ahmadsyar's Tech Guide Collection
+
+This is a collection of the guides I made
