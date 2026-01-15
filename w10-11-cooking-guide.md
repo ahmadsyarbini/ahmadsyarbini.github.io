@@ -5,13 +5,6 @@
 1. Go to https://schneegans.de/windows/unattend-generator/
 2. Fill in the form according to your preferences
 3. Save autounattend.xml
->#### Note
->
->Recheck the xml file in your preferred text editor. For example, lookout for
->```
->reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender Security Center\Systray" /v HideSystray /t REG_DWORD /d 1 /f;
->``` 
->because is it added without option in the generator. Remove it or leave it, your choice.
 
 ## Put into the root of the directory
 ### For Ventoy (Recommended)
@@ -28,6 +21,14 @@
 2. Put the autounattend.xml file into the `root` of the usb drive. e.g. `F:/`
 3. Boot into usb drive and proceed with reformat and reinstall routine
 
-!!! The file must be named exactly `autounattend.xml` or else it will not work
+> The file must be named exactly `autounattend.xml` or else it will not work
+
+>#### Note
+>
+>Recheck the xml file in your preferred text editor. For example, lookout for
+>```
+>reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender Security Center\Systray" /v HideSystray /t REG_DWORD /d 1 /f;
+>``` 
+>because is it added without option in the generator. Remove it or leave it, your choice.
 
 My example of autounattend.xml : https://raw.githubusercontent.com/ahmadsyarbini/my-autounattend.xml/refs/heads/main/autounattend.xml
