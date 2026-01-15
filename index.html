@@ -5,7 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Ahmadsyar's Tech Guide</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 2rem; line-height: 1.6; }
+      pre { background: #f5f5f5; padding: 1rem; overflow-x: auto; }
+      code { background: #eee; padding: 0.2rem 0.4rem; border-radius: 3px; }
+    </style>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
@@ -13,7 +19,11 @@
     <div class="grid-container">
     <!-- load external navbar html -->
     <div id="navbar-id"></div>
-    
+    <div id="main-page"></div>
+    <script>
+      const mdFile = 'main.md';
+      fetch(mdFile).then(response => response.text()).then(md => document.getElementById('main-page').innerHTML = marked(md)).catch(err => console.error(err));
+    </script>
     </div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
@@ -30,5 +40,5 @@
       })
       .catch(e => console.error(e));
     </script>
-  </body>
+</body>
 </html>
