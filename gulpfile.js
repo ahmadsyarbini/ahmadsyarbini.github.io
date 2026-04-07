@@ -13,7 +13,10 @@ function serve(cb) {
 // Watch files and reload
 function watchFiles() {
     watch(['**/*.html', '**/*.css', '**/*.js', '!node_modules/**'])
-        .on('change', browserSync.reload);
+        .on('all', (event, path) => {
+            console.log(`[${event}] ${path}`);
+            browserSync.reload();
+        });
 }
 
 // Default task: start server and watch files
