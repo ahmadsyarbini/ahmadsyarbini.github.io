@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ahmadsyar's Tech Guide</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css">
+</head>
+<body>
+
+<div id="navbar"></div>
+
+<!-- Section with Columns -->
+<section class="section">
+  <div class="container">
+    <h2 class="title">About</h2>
+      <div class="content">
+        <ul>
+          Not much to say
+        </ul>
+      </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>Ahmadsyar &copy; 2026</p>
+  </div>
+</footer>
+</body>
+<script>
+fetch('navbar.html')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('navbar').innerHTML = data;
+  });
+</script>
+</html>

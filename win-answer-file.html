@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ahmadsyar's Tech Guide</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css">
+</head>
+<body>
+
+<div id="navbar"></div>
+  
+
+<section class="section">
+  <!-- <h2 class="title">Clean Windows Guide</h2 class="title">   -->
+      <div class="block">
+        <iframe src="https://rentry.co/bxnxu44y" style="width: 100%;height: 100vh;border: none;">
+        </iframe>
+      </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>Ahmadsyar &copy; 2026</p>
+  </div>
+</footer>
+</body>
+<script>
+fetch('navbar.html')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('navbar').innerHTML = data;
+  });
+</script>
+</html>

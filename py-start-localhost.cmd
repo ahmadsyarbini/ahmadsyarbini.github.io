@@ -12,3 +12,4 @@ timeout /t 1 /nobreak > nul
 
 REM Start Gulp watch
 npx gulp
+exit
