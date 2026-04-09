@@ -20,18 +20,24 @@
 </section>
 
 
-<!-- Footer -->
-<footer class="footer">
-  <div class="content has-text-centered">
-    <p>Ahmadsyar &copy;</p>
-  </div>
-</footer>
+<!-- load footer here -->
+
+<div id="footer"></div>
+
+<!-- load footer here -->
 </body>
 <script>
 fetch('navbar.html')
   .then(response => response.text())
   .then(data => {
     document.getElementById('navbar').innerHTML = data;
+  });
+</script>
+<script>
+fetch('footer.html')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('footer').innerHTML = data;
   });
 </script>
 </html>
