@@ -1,9 +1,9 @@
 ---
 title: Instruction to myself
 ---
-### How to setup this jekyll again:
+## How to setup this jekyll again:
 
-#### Manual
+### Manual
 
 - install ruby using winget `winget install RubyInstallerTeam.RubyWithDevKit.3.4 -h`
 - open terminal `gem install bundler`
@@ -15,9 +15,11 @@ title: Instruction to myself
 - command `bundle exec jekyll serve -livereload`
 - open browser to `http://localhost:4000`
 
-#### The batch script I made
+### The batch to start localhost
 
-```
+
+
+```batch
 @echo off
 rem to host locally
 start "" bundle exec jekyll serve --livereload
@@ -28,7 +30,7 @@ exit
 
 ### Reset branch, Rebase + Initialize Git
 
-```
+``` batch
 @echo off
 setlocal
 REM =========================================
@@ -36,7 +38,7 @@ REM FULL RESET + SHRINK .GIT FOR WINDOWS CMD
 REM =========================================
 
 REM set variable
-set "GIT_PATH=%userprofile%\My Drive\Documents\Tech"
+set "GIT_PATH=path\here"
 
 REM Change to your project directory
 if not exist "%GIT_PATH%" (

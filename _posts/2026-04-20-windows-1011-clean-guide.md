@@ -1,13 +1,13 @@
 ---
-title: Windows Autounattend Recipe Guide
+title: Windows 10/11 Clean Install Guide
 categories:
 - Windows
 feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
 ---
 ## Download directly from Microsoft website
-1. Download ISO from https://www.microsoft.com/en-us/software-download/windows11
+1. Download ISO from [https://www.microsoft.com/en-us/software-download/windows11](https://www.microsoft.com/en-us/software-download/windows11)
 ## Customize autounattend.xml
-1. Go to https://schneegans.de/windows/unattend-generator/
+1. Go to [https://schneegans.de/windows/unattend-generator/](https://schneegans.de/windows/unattend-generator/)
 2. Fill in the form according to your preferences
 3. Save autounattend.xml
 
@@ -50,11 +50,7 @@ feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
 2. Put the autounattend.xml file into the `root` of the usb drive. e.g. `F:\`
 3. Boot into usb drive and proceed with reformat and reinstall [routine](https://rentry.co/829sd5ow)
 
-!!! note Note
-	The file must be named exactly `autounattend.xml` or else it will not work
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
+> The file must be named exactly `autounattend.xml` or else it will not work
 
 Recheck the xml file in your preferred text editor. For example, lookout for
 ```
