@@ -4,6 +4,7 @@ categories:
 - Windows
 feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
 ---
+<!-- more -->
 ## Download directly from Microsoft website
 1. Download ISO from [https://www.microsoft.com/en-us/software-download/windows11](https://www.microsoft.com/en-us/software-download/windows11)
 ## Customize autounattend.xml
