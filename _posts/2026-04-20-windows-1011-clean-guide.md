@@ -15,7 +15,7 @@ feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
 
 #### or
 
-1. Just use my preset : [My Github Repo](https://raw.githubusercontent.com/ahmadsyarbini/ahmadsyar-scripts/refs/heads/main/others/my-autounattend/autounattend.xml)
+1. Just use my preset : [Right Click Save as](https://raw.githubusercontent.com/ahmadsyarbini/ahmadsyar-scripts/refs/heads/main/others/my-autounattend/autounattend.xml)
 **my preset features :**
 * No AI
 * No Copilot
@@ -38,6 +38,8 @@ feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
 * Disabled password expiry
 * tldr ; It's like the good old windows xp and windows 7 era
 
+---
+
 #### Put into the root of the directory
 #### For Ventoy (Recommended)
 1. Proceed with ventoy routine. Install through terminal: `winget install Ventoy.Ventoy -h` or [manually](https://www.ventoy.net/)
@@ -46,7 +48,7 @@ feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
 4. Insert `autounattend.xml` into ISO
 5. Save ISO
 6. Copy paste ISO into ventoy usb drive prepared earlier
-7. Boot into usb drive and proceed with reformat and reinstall [routine](https://rentry.co/829sd5ow)
+7. Boot into usb drive and proceed with reformat and reinstall [routine](windows/2026/04/20/using-diskpart-reformat-guide/)
 #### For Rufus
 1. Proceed with rufus routine. Install through `winget install Rufus.Rufus -h` or [manually](https://rufus.ie/en/)
 2. Put the autounattend.xml file into the `root` of the usb drive. e.g. `F:\`
