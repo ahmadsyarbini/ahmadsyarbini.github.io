@@ -16,6 +16,4 @@ Just another tech guide website
 
 ## My Scripts
 
-Check out my repo of my script I personally use. Caution, read the script first. Bare no responsiblity when running script you found randomly on the internet.
-
-[My Script](https://github.com/ahmadsyarbini/ahmadsyar-scripts)
+Check out my repo of my script I personally use. Caution, read the script first. Bare no responsiblity when running script you found randomly on the internet. [My Script](https://github.com/ahmadsyarbini/ahmadsyar-scripts)
