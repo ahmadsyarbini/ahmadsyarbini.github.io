@@ -62,7 +62,7 @@ collections:
     output: true
     description: "My thoughts and ideas" # The post list page content
     feature_text: |
-      ## Windows Guides
+      ## Tech Guides or Guides in General
     feature_image: "https://w.wallhaven.cc/full/45/wallhaven-45v3x1.jpg"
 
 # 6. Jekyll collections settings
