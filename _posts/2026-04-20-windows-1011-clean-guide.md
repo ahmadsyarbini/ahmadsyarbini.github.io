@@ -1,5 +1,6 @@
 ---
 title: Windows 10/11 Clean Install Guide
+layout: page
 categories:
 - Windows
 feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
