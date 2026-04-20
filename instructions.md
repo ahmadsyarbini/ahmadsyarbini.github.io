@@ -1,23 +1,19 @@
 ---
-title: Instruction to myself
+title: Instruction to myself on How to setup this jekyll again
 ---
-## How to setup this jekyll again:
-
 ### Manual
 
 - install ruby using winget `winget install RubyInstallerTeam.RubyWithDevKit.3.4 -h`
-- open terminal `gem install bundler`
-- command `gem install jekyll`
+- open terminal, enter command `gem install bundler`
+- enter command `gem install jekyll`
 - optional info : to check `jekyll -v`
 - navigate into directory `cd \path`
-- command `jekyll new .`
-- command `bundle install`
-- command `bundle exec jekyll serve -livereload`
+- enter command `jekyll new .`
+- enter command `bundle install`
+- enter command `bundle exec jekyll serve -livereload`
 - open browser to `http://localhost:4000`
 
 ### The batch to start localhost
-
-
 
 ```batch
 @echo off
