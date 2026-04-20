@@ -62,8 +62,8 @@ collections:
     output: true
     description: "My thoughts and ideas" # The post list page content
     feature_text: |
-      Welcome to the blog
-    feature_image: "hero-bg.png"
+      ## Windows Guides
+    feature_image: "https://w.wallhaven.cc/full/45/wallhaven-45v3x1.jpg"
 
 # 6. Jekyll collections settings
 defaults:
@@ -118,10 +118,12 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
-- title: Windows
-  url: /windows/
+- title: Guides
+  url: /guides/
 - title: About
   url: /about/
+- title: Instructions
+  url: /instructions/  
 # - title: Categories
 #   url: /categories/
 - title: Search
