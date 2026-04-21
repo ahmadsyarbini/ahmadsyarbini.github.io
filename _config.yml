@@ -158,6 +158,7 @@ fonts:
     - https://fonts.googleapis.com
   font_urls:
     - https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap
+    - https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap
 
 # simpan
 # fonts:
