@@ -1,7 +1,7 @@
 ---
 title: Instruction to myself on How to setup this jekyll again
 ---
-### Manual
+### Initial Setup
 
 - install ruby using winget `winget install RubyInstallerTeam.RubyWithDevKit.3.4 -h`
 - open terminal, enter command `gem install bundler`
@@ -17,12 +17,33 @@ title: Instruction to myself on How to setup this jekyll again
 
 ```batch
 @echo off
-rem to host locally
-start "" bundle exec jekyll serve --livereload
-timeout /t 3 /nobreak >nul
+
+rem Open browser once
 start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" http://localhost:4000
-exit
+
+:loop
+echo Starting Jekyll...
+
+bundle exec jekyll serve --livereload
+
+echo Jekyll stopped. Restarting in 3 seconds...
+timeout /t 3 /nobreak >nul
+
+goto :loop
 ```
+
+### Git Push
+
+```batch
+@echo off
+rem this is just the workflow of push. dont worry.
+rem cd /d E:\ahmadsyarbini.github.io
+git add -A
+git commit -m "update"
+git push origin main --force
+timeout /t 4 /nobreak >nul
+```
+
 
 ### Reset branch, Rebase + Initialize Git
 
