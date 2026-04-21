@@ -7,16 +7,19 @@ feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
 ---
 <!-- more -->
 #### Download directly from Microsoft website
+
 1. Download ISO from [https://www.microsoft.com/en-us/software-download/windows11](https://www.microsoft.com/en-us/software-download/windows11)
+
 #### Customize autounattend.xml
+
 1. Go to [https://schneegans.de/windows/unattend-generator/](https://schneegans.de/windows/unattend-generator/)
 2. Fill in the form according to your preferences
 3. Save autounattend.xml
 
 #### or
 
-1. Just use my preset : [Right Click Save as](https://raw.githubusercontent.com/ahmadsyarbini/ahmadsyar-scripts/refs/heads/main/others/my-autounattend/autounattend.xml)
-**my preset features :**
+1. Just use my preset : [Right Click Save as](https://raw.githubusercontent.com/ahmadsyarbini/ahmadsyar-scripts/refs/heads/main/others/my-autounattend/autounattend.xml)  
+my preset features :
 * No AI
 * No Copilot
 * No Pre-installed social media app
@@ -41,7 +44,9 @@ feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
 ---
 
 #### Put into the root of the directory
+
 #### For Ventoy (Recommended)
+
 1. Proceed with ventoy routine. Install through terminal: `winget install Ventoy.Ventoy -h` or [manually](https://www.ventoy.net/)
 2. Install Anyburn through terminal: `winget install PowerSoftware.AnyBurn -h` or [manually](https://www.anyburn.com/)
 3. Open Anyburn and Select "Edit Image File"
@@ -49,7 +54,9 @@ feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
 5. Save ISO
 6. Copy paste ISO into ventoy usb drive prepared earlier
 7. Boot into usb drive and proceed with reformat and reinstall [routine]({% post_url 2026-04-20-using-diskpart-reformat-guide %})
+
 #### For Rufus
+
 1. Proceed with rufus routine. Install through `winget install Rufus.Rufus -h` or [manually](https://rufus.ie/en/)
 2. Put the autounattend.xml file into the `root` of the usb drive. e.g. `F:\`
 3. Boot into usb drive and proceed with reformat and reinstall [routine]({% post_url 2026-04-20-using-diskpart-reformat-guide %})
