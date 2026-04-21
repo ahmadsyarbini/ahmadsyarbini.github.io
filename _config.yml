@@ -90,7 +90,7 @@ encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Ahmadsyar's Tech Guide" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/ico.png" # Site logo, also used in jekyll-seo-tag
-description: "Ahmadsyar's Tech Guide" # Site description and default description, also used in jekyll-seo-tag
+description: "My personal collection of guides and tricks from the wisdom of experience" # Site description and default description, also used in jekyll-seo-tag
 url: "https://ahmadsyarbini.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/ahmadsyarbini"
@@ -158,6 +158,15 @@ fonts:
   font_urls:
     - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
 
+# fonts:
+#   preconnect_urls:
+#     - https://fonts.gstatic.com
+#   font_urls:
+#     - https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Raleway:wght@300;400;600&family=Great+Vibes&display=swap
+
 # custom_fonts:
 #   urls:
-#     - https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap
+#     - "https://googleapis.com"
+#   base: "'Roboto', sans-serif"
+#   heading: "'Roboto', sans-serif"
+#   monospace: "'Courier New', monospace"

@@ -6,7 +6,7 @@ start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" http://localhos
 :loop
 echo Starting Jekyll...
 
-bundle exec jekyll serve --livereload
+bundle exec jekyll serve --livereload --host 0.0.0.0
 
 echo Jekyll stopped. Restarting in 3 seconds...
 timeout /t 3 /nobreak >nul

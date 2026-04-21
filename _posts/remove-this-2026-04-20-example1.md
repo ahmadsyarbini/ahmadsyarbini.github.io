@@ -5,4 +5,4 @@ categories:
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 
-contoh
+format untuk post page = YYYY-MM-DD-tajuk.md
