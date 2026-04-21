@@ -18,11 +18,11 @@ feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
 5. type `select disk #` . Replace `#` with your target disk. Examine closely using `detail disk`
 ![5](https://i.imgur.com/hKB4tky.png)
 6. type `clean`  
-**!Important!**
-**This is permanent and irreversible. Check closely with `detail disk`. If still not confident, shut down and remove drives that you don't want to reformat, and start over.**
+> **(IMPORTANT) This is permanent and irreversible. Check closely with `detail disk`. If still not confident, shut down and remove drives that you don't want to reformat, and start over.**
+7. type `convert gpt`
 ![6](https://i.imgur.com/NvdqYed.png)
-7. Exit cmd\
+8. Exit cmd\
 ![7](https://i.imgur.com/bhNYNFq.png)
-8. Refresh then select the `disk #` earlier
+9. Refresh then select the `disk #` earlier
 ![8](https://i.imgur.com/27D0XEo.png)
-9. Click Next and follow standard windows install procedure
+10. Click Next and follow standard windows install procedure
