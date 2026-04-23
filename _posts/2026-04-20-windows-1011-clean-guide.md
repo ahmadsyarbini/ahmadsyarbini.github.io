@@ -58,8 +58,9 @@ my preset features :
 #### For Rufus
 
 1. Proceed with rufus routine. Install through `winget install Rufus.Rufus -h` or [manually](https://rufus.ie/en/)
-2. Put the autounattend.xml file into the `root` of the usb drive. e.g. `F:\`
-3. Boot into usb drive and proceed with reformat and reinstall [routine]({% post_url 2026-04-20-using-diskpart-reformat-guide %})
+2. Load ISO into the USB through rufus
+3. Put the autounattend.xml file into the `root` of the usb drive. e.g. `F:\`
+4. Boot into usb drive and proceed with reformat and reinstall [routine]({% post_url 2026-04-20-using-diskpart-reformat-guide %})
 
 > The file must be named exactly `autounattend.xml` or else it will not work
 
