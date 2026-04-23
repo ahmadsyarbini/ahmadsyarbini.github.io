@@ -124,8 +124,8 @@ navigation_header:
   url: /about/
 - title: Instructions
   url: /instructions/  
-# - title: Categories
-#   url: /categories/
+# - title: Pictures
+#   url: /pictures/
 - title: Search
   url: /search/
 # - title: Fork Alembic
