@@ -3,7 +3,7 @@ title: MacOS Terminal Reformat Disk
 layout: page
 categories:
 - Mac
-feature_image: "https://w.wallhaven.cc/full/4l/wallhaven-4lo7k2.jpg"
+feature_image: "https://w.wallhaven.cc/full/m9/wallhaven-m9l5v9.jpg"
 ---
 <!-- more -->
 1. Open terminal
