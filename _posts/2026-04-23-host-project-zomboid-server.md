@@ -2,7 +2,9 @@
 title: How to setup Project Zomboid Dedicated Server
 layout: page
 categories:
-- Windows, Mac, Linux, Game
+- Windows
+- Mac
+- Linux
 feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
 ---
 <!-- more -->
