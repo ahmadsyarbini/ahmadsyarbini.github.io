@@ -1,5 +1,5 @@
 ---
-title: How to setup Project Zomboid Dedicated Server
+title: How To Setup Project Zomboid Dedicated Server
 layout: page
 categories:
 - Windows

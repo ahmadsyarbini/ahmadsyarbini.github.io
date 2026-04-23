@@ -1,22 +1,23 @@
 ---
-title: How to setup this Jekyll Alembic workflow
+title: How To Setup This Jekyll Alembic Workflow
 layout: page
 categories:
 - General
+- Myself
 feature_image: "https://w.wallhaven.cc/full/m9/wallhaven-m9l5v9.jpg"
 ---
 <!-- more -->
 ### Initial Setup
 
-- install ruby using winget `winget install RubyInstallerTeam.RubyWithDevKit.3.4 -h`
-- open terminal, enter command `gem install bundler`
-- enter command `gem install jekyll`
-- optional info : to check `jekyll -v`
-- navigate into directory `cd \path`
-- enter command `jekyll new .`
-- enter command `bundle install`
-- enter command `bundle exec jekyll serve -livereload`
-- open browser to `http://localhost:4000`
+1. install ruby using winget `winget install RubyInstallerTeam.RubyWithDevKit.3.4 -h`
+2. open terminal, enter command `gem install bundler`
+3. enter command `gem install jekyll`
+4. optional info : to check `jekyll -v`
+5. navigate into directory `cd \path`
+6. enter command `jekyll new .`
+7. enter command `bundle install`
+8. enter command `bundle exec jekyll serve -livereload`
+9. open browser to `http://localhost:4000`
 
 ### The batch to start localhost
 
