@@ -15,11 +15,11 @@ feature_image: "https://w.wallhaven.cc/full/m9/wallhaven-m9l5v9.jpg"
 git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 ```
-4. Credentials and login are prompt during `git push` at No. 6 below.
+4. Credentials and login are prompted during `git push` at No. 6 below.
 
 ### Prepare The Repo Directory Locally
 
-1. Type `git clone [repo link]`
+1. Type `git clone [insert repo link here]`
 2. Navigate into the directory `cd repo`
 3. Check status with `git status`
 4. Add the whole directory `git add .`
