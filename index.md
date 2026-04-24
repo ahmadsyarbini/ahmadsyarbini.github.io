@@ -4,7 +4,7 @@ feature_text: |
   # Ahmadsyar's Tech Guide
   Bottom Text
 feature_image: "hero-bg.png"
-excerpt: "Ahmadsyar's Tech Guide"
+# excerpt: "Ahmadsyar's Tech Guide"
 ---
 
 Just another tech guide website
