@@ -6,7 +6,6 @@ categories:
 feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
 ---
 <!-- more -->
-
 1. Insert USB drive and boot into it
 2. When on the disk selection screen, bring out the cmd with pressing Shift + F10
 ![1](https://i.imgur.com/wPlH60u.png)

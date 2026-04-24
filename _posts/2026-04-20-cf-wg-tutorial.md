@@ -6,7 +6,6 @@ categories:
 feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
 ---
 <!-- more -->
-
 #### Prepare the wireguard
 
 1. Open terminal with admin and install `winget install --id=WireGuard.WireGuard -e -h` or [manually](https://www.wireguard.com/install/).
