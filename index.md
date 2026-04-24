@@ -8,6 +8,7 @@ excerpt: "Alembic"
 ---
 
 Just another tech guide website
+![shrugs](/assets/images/shrugs.jpg)
 
 ## Features
 - Not vibe coded
