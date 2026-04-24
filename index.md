@@ -3,7 +3,7 @@ title: Welcome To
 feature_text: |
   # Ahmadsyar's Tech Guide
   Bottom Text
-feature_image: "hero-bg.png"
+feature_image: "assets/hero-bg.png"
 descriptions: My Personal Collection of Tech Guides I wrote Myself
 # excerpt: "Ahmadsyar's Tech Guide"
 ---
