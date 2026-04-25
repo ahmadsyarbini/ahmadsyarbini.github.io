@@ -4,7 +4,7 @@ layout: page
 categories:
 - General
 - Myself
-feature_image: "https://w.wallhaven.cc/full/m9/wallhaven-m9l5v9.jpg"
+feature_image: "/assets/images/bg-6.jpg"
 ---
 <!-- more -->
 ### Initial Setup

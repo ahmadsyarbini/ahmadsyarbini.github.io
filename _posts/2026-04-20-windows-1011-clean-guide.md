@@ -3,7 +3,7 @@ title: Windows 10/11 Clean Install Guide
 layout: page
 categories:
 - Windows
-feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
+feature_image: "/assets/images/bg-2.jpg"
 ---
 <!-- more -->
 #### Download directly from Microsoft website
@@ -53,14 +53,14 @@ my preset features :
 4. Insert `autounattend.xml` into ISO
 5. Save ISO
 6. Copy paste ISO into ventoy usb drive prepared earlier
-7. Boot into usb drive and proceed with reformat and reinstall [routine]({% post_url 2026-04-20-using-diskpart-reformat-guide %})
+7. Boot into usb drive and proceed with reformat and reinstall [routine]({% post_url 2026-04-21-windows-diskpart-reformat-guide %})
 
 #### For Rufus
 
 1. Proceed with rufus routine. Install through `winget install Rufus.Rufus -h` or [manually](https://rufus.ie/en/)
 2. Load ISO into the USB through rufus
 3. Put the autounattend.xml file into the `root` of the usb drive. e.g. `F:\`
-4. Boot into usb drive and proceed with reformat and reinstall [routine]({% post_url 2026-04-20-using-diskpart-reformat-guide %})
+4. Boot into usb drive and proceed with reformat and reinstall [routine]({% post_url 2026-04-21-windows-diskpart-reformat-guide %})
 
 > The file must be named exactly `autounattend.xml` or else it will not work
 

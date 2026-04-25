@@ -1,9 +1,9 @@
 ---
-title: Using Diskpart Reformat guide
+title: Windows Diskpart Reformat guide
 layout: page
 categories:
 - Windows
-feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
+feature_image: "/assets/images/bg-3.jpg"
 ---
 <!-- more -->
 1. Insert USB drive and boot into it

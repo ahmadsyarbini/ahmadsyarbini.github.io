@@ -5,7 +5,7 @@ categories:
 - Windows
 - Mac
 - Linux
-feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
+feature_image: "/assets/images/bg-6.jpg"
 ---
 <!-- more -->
 ## Server itself

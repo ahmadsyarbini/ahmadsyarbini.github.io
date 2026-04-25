@@ -3,7 +3,7 @@ title: Using Wireguard with Cloudflare Tutorial
 layout: page
 categories:
 - Windows
-feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
+feature_image: "/assets/images/bg-1.jpg"
 ---
 <!-- more -->
 #### Prepare the wireguard

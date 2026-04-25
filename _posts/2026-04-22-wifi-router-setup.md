@@ -3,7 +3,7 @@ title: Wifi Router Setup
 layout: page
 categories:
 - General
-feature_image: "https://w.wallhaven.cc/full/gj/wallhaven-gjwg7l.jpg"
+feature_image: "/assets/images/bg-4.jpg"
 ---
 <!-- more -->
 

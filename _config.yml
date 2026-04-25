@@ -58,12 +58,12 @@ timezone: Europe/London # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Guides # Needed for Siteleaf
+    title: # Needed for Siteleaf my note : redundant
     output: true
     description: "" # The post list page content
     feature_text: |
       ## Tech Guides or Guides in General
-    feature_image: "https://w.wallhaven.cc/full/45/wallhaven-45v3x1.jpg"
+    feature_image: "/assets/images/bg-1.jpg"
 
 # 6. Jekyll collections settings
 defaults:
