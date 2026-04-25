@@ -1,6 +1,6 @@
 ---
 title: Wifi Router Setup
-layout: page
+layout: post
 categories:
 - General
 feature_image: "/assets/images/bg-4.jpg"

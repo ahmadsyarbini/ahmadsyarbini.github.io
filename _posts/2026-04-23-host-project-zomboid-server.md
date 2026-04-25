@@ -1,10 +1,11 @@
 ---
 title: How To Setup Project Zomboid Dedicated Server
-layout: page
+layout: post
 categories:
 - Windows
 - Mac
 - Linux
+- Game
 feature_image: "/assets/images/bg-6.jpg"
 ---
 <!-- more -->
@@ -13,9 +14,9 @@ feature_image: "/assets/images/bg-6.jpg"
 2. Create a folder for the server.
 3. Create a cmd/batch file, save it outside of the folder. In this example, the beta branch is being used.
 ```batch
-steamcmd.exe +force_install_dir "$path$" +login anonymous +app_update 380870 -beta "42.13.1" validate +quit
+steamcmd.exe +force_install_dir "%path%" +login anonymous +app_update 380870 -beta "42.13.1" validate +quit
 ```
-4. Replace `$path$` with your own folder path. Replace `-beta "42.13.1"` with your own beta selection or delete it.
+4. Replace `%path%` with your own folder path. Replace `-beta "42.13.1"` with your own beta selection or delete it.
 5. Run the batch file once. If error, run it again.
 6. Open the `StartServer64.bat` file in your favorite text editor, edit the `-Xmx and -Xms` part to your suitable RAM config. For example:
 ```batch

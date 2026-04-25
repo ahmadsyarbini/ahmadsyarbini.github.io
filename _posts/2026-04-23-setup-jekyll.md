@@ -1,6 +1,6 @@
 ---
 title: How To Setup This Jekyll Alembic Workflow
-layout: page
+layout: post
 categories:
 - General
 - Myself

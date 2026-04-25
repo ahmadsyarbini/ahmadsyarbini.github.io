@@ -1,6 +1,6 @@
 ---
 title: Using Wireguard with Cloudflare Tutorial
-layout: page
+layout: post
 categories:
 - Windows
 feature_image: "/assets/images/bg-1.jpg"

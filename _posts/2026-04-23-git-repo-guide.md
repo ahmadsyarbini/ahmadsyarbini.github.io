@@ -1,6 +1,6 @@
 ---
 title: Git Repo Setup Guide For Myself
-layout: page
+layout: post
 categories:
 - General
 - Myself

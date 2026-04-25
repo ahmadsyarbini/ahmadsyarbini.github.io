@@ -1,6 +1,6 @@
 ---
 title: Windows Diskpart Reformat guide
-layout: page
+layout: post
 categories:
 - Windows
 feature_image: "/assets/images/bg-3.jpg"

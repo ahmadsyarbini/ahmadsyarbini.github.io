@@ -1,6 +1,6 @@
 ---
 title: MacOS Terminal Reformat Disk
-layout: page
+layout: post
 categories:
 - Mac
 feature_image: "/assets/images/bg-1.jpg"

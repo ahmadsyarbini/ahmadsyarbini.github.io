@@ -1,6 +1,6 @@
 ---
 title: Windows 10/11 Clean Install Guide
-layout: page
+layout: post
 categories:
 - Windows
 feature_image: "/assets/images/bg-2.jpg"
@@ -65,7 +65,7 @@ my preset features :
 > The file must be named exactly `autounattend.xml` or else it will not work
 
 Recheck the xml file in your preferred text editor. For example, lookout for
-```
+```batch
 reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender Security Center\Systray" /v HideSystray /t REG_DWORD /d 1 /f;
 ``` 
 because is it added without option in the generator. Remove it or leave it, your choice.
