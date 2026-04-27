@@ -62,10 +62,15 @@ my preset features :
 3. Put the autounattend.xml file into the `root` of the usb drive. e.g. `F:\`
 4. Boot into usb drive and proceed with reformat and reinstall [routine]({% post_url 2026-04-21-windows-diskpart-reformat-guide %})
 
+#### Important Mention
+
 > The file must be named exactly `autounattend.xml` or else it will not work
+
+> Unplug ethernet cable and disconnect all kinds of internet connection when setup to prevent update during installation
 
 Recheck the xml file in your preferred text editor. For example, lookout for
 ```batch
 reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender Security Center\Systray" /v HideSystray /t REG_DWORD /d 1 /f;
 ``` 
 because is it added without option in the generator. Remove it or leave it, your choice.
+
