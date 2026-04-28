@@ -30,15 +30,21 @@ steamcmd.exe +force_install_dir "%path%" +login anonymous +app_update 380870 -be
 10. Done.
 
 ## Network Part
+
 ##### Port Forwarding
+
 1. Proceed with port forwarding routine for public IP not behind CGNAT.
+
 ##### Using PlayitGG Tunneling
+
 1. For ISP with CGNAT, use [Playit.gg](https://playit.gg/).
 2. Install using winget `winget install DevelopedMethods.playit -h` or [manually](https://playit.gg/download).
-3. Assign agent, if not yet done. Create tunnel using port `16261` UDP protocol, if not yet done.
-4. Done.
+3. Follow the setup routine. (Create account, assign agent, etc)
+4. Create tunnel using port `16261` UDP protocol, if not yet done.
+5. Done.
 
 ## Transfering Save file
+
 1. The server save files are located at `%userprofile%\Zomboid`. Cannot be moved.
 2. `servertest` can be named differently depending on your config.
 
