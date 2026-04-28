@@ -13,6 +13,7 @@ feature_image: "/assets/images/bg-4.jpg"
 -IP Address (example http:\\\192.168.0.1)  
 -username (example admin)  
 -password (example password1234)  
+![1](/assets/images/2026-04/router1.jpg)
 2. Connect the router with a device that has ethernet cable on LAN1 port.
 3. Open browser and open the router control panel in the address in (1.)
 4. Proceed with admin login as per info in (1.)
