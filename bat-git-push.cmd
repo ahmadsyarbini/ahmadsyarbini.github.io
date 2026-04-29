@@ -4,4 +4,4 @@ rem cd /d E:\ahmadsyarbini.github.io
 git add -A
 git commit -m "update"
 git push origin main --force
-timeout /t 4 /nobreak >nul
+timeout /t 2 /nobreak >nul

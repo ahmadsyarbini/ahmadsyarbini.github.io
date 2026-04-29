@@ -9,6 +9,6 @@ echo Starting Jekyll...
 bundle exec jekyll serve --livereload --host 0.0.0.0
 
 echo Jekyll stopped. Restarting in 3 seconds...
-timeout /t 3 /nobreak >nul
+timeout /t 2 /nobreak >nul
 
 goto :loop
