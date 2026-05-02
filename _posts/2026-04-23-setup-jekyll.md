@@ -19,6 +19,64 @@ feature_image: "/assets/images/bg-6.jpg"
 8. enter command `bundle exec jekyll serve -livereload`
 9. open browser to `http://localhost:4000`
 
+### Adjusting Values
+
+- To change font, first adjust the `_config.yml`
+
+{% raw %}
+```yaml
+fonts:
+  preconnect_urls:
+    - https://fonts.gstatic.com
+    - https://fonts.googleapis.com
+  font_urls:
+    - https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap
+    - https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap
+```
+{% endraw %}
+
+- Then change settings in `_sass/_settings.scss`
+{% raw %}
+```scss
+// Typography
+$bodytype: (
+  font-family: "Roboto, serif",
+  regular: 400,
+  bold: 700,
+  italic: italic,
+  cap-height: 0.75
+) !default;
+
+$headingtype: (
+  font-family: '"Roboto", serif',
+  regular: 400,
+  bold: 700,
+  cap-height: 0.75
+) !default;
+
+$monospacetype: (
+  font-family: "Google Sans Code, monospace",
+  regular: 400,
+  cap-height: 0.68
+) !default;
+```
+{% endraw %}
+
+To change `code` typography, go to `_sass/sassline-base/_typography.scss` an adjust:
+
+```scss
+  pre {
+    display: block;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+    line-height: 1rem;
+  }  
+```
+
 ### The batch to start localhost
 
 ```batch

@@ -321,6 +321,18 @@ a {
     font-family: unquote(map-get($monospacetype, font-family));
   }
 
+// original
+
+  // pre {
+  //   display: block;
+  //   margin-bottom: 2rem;
+  //   padding: 1rem;
+  //   white-space: pre;
+  //   white-space: pre-wrap;
+  //   word-break: break-all;
+  //   word-wrap: break-word;
+  // }
+
   pre {
     display: block;
     margin-bottom: 2rem;
@@ -329,7 +341,8 @@ a {
     white-space: pre-wrap;
     word-break: break-all;
     word-wrap: break-word;
-  }
+    line-height: 1rem;
+  }  
 
   code {
     @include fontsize(theta, all);
