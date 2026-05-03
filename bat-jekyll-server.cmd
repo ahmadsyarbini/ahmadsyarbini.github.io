@@ -2,6 +2,9 @@
 
 rem Open browser once
 start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" http://localhost:4000
+rem start blank terminal to base on
+start "" wt.exe
+timeout /t 2 /nobreak >nul
 
 :loop
 echo Starting Jekyll...
