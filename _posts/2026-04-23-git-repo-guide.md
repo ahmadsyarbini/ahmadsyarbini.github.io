@@ -22,7 +22,7 @@ git config --global user.email "your@email.com"
 1. Type `git clone [insert repo link here]`
 2. Navigate into the directory `cd repo`
 3. Check status with `git status`
-4. Add the whole directory `git add .`
+4. Add the whole directory `git add -A`
 5. Create commit `git commit -m "Initial setup"`
 6. Push to repo `git push origin main`
 
@@ -34,6 +34,6 @@ rem this is just the workflow of push. dont worry.
 rem cd /d E:\ahmadsyarbini.github.io
 git add -A
 git commit -m "update"
-git push origin main --force
+git push origin main
 timeout /t 4 /nobreak >nul
 ```
