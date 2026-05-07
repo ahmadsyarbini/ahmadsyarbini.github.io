@@ -15,11 +15,12 @@ Just another tech guide website
 - Not vibe coded
 - Not AI
 - Self use, not profit driven
+- Updated once in a while
 
 ## Mandatory Online Safety Measurement
 
-- Adblock is frontliner of safety and privacy in online. Use [Ublock Origin](https://github.com/gorhill/ublock) and [Adguard DNS](https://adguard-dns.io/en/public-dns.html). There are also other alternatives. Explore and do trial and error.
-- More tips coming soon.
+- Adblock is frontliner of safety and privacy in online. Use [Ublock Origin](https://github.com/gorhill/ublock) and [Adguard DNS](https://adguard-dns.io/en/public-dns.html). There are also other DNS alternatives. Explore and do trial and error. 
+- Check out my [DNS switcher script](https://github.com/ahmadsyarbini/ahmadsyar-scripts/blob/main/switch-dns.cmd).
 
 ## My Scripts
 
