@@ -22,5 +22,5 @@ feature_image: "/assets/images/bg-1.jpg"
 ![Alt Tag](https://i.imgur.com/7nDuAsa.png)
 7. Done
 
-> Note : Uncheck the "Block untunneled traffic" if you want LAN functionality (Steamlink, Virtual Desktop, NAS)
+> Note : Uncheck the "Block untunneled traffic" if you want LAN functionality (Steamlink, Virtual Desktop, NAS)  
 ![blockuntunneled](https://i.imgur.com/gnk4aeM.png)

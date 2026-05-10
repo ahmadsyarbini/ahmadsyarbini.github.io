@@ -6,17 +6,32 @@ categories:
 feature_image: "/assets/images/bg-2.jpg"
 ---
 <!-- more -->
-#### Download directly from Microsoft website
+### 1️⃣ Download directly from Microsoft website
+
+#### How to download Windows 11 ISO
 
 1. Download ISO from [https://www.microsoft.com/en-us/software-download/windows11](https://www.microsoft.com/en-us/software-download/windows11)
+2. Download using the dropdown for direct download. (Avoid installing and running anything)
+3. Done
 
-#### Customize autounattend.xml
+#### How to download Windows 10 ISO
+
+1. Go to [Windows 10 Download Website](https://www.microsoft.com/en-us/software-download/windows10)
+2. Use developer tools "Inspect" on your browser to change the screen size to ipad/tablet.
+3. Ctrl + R to reload browser. (Normal reload does not recache)
+4. The dropdown selection will appear and proceed with direct download (Avoid installing and running anything)
+5. Done
+
+> 💡Tips  
+How to check if ISOs are legit? Use CRC Checksum at [https://files.rg-adguard.net/](https://files.rg-adguard.net/)
+
+### 2️⃣ Customize autounattend.xml
 
 1. Go to [https://schneegans.de/windows/unattend-generator/](https://schneegans.de/windows/unattend-generator/)
 2. Fill in the form according to your preferences
 3. Save autounattend.xml
 
-#### or
+### or
 
 1. Just use my preset : [Right Click Save as](https://raw.githubusercontent.com/ahmadsyarbini/ahmadsyar-scripts/refs/heads/main/others/my-autounattend/autounattend.xml)  
 my preset features :
@@ -43,7 +58,7 @@ my preset features :
 
 ---
 
-#### Put into the root of the directory
+### 3️⃣ Put into the root of the directory
 
 #### For Ventoy (Recommended)
 
@@ -62,7 +77,7 @@ my preset features :
 3. Put the autounattend.xml file into the `root` of the usb drive. e.g. `F:\`
 4. Boot into usb drive and proceed with reformat and reinstall [routine]({% post_url 2026-04-21-windows-diskpart-reformat-guide %})
 
-#### Important Mention
+#### ❗Important Mention
 
 > The file must be named exactly `autounattend.xml` or else it will not work
 
@@ -74,3 +89,22 @@ reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender Security Center\S
 ``` 
 because is it added without option in the generator. Remove it or leave it, your choice.
 
+---
+
+#### Windows 10 EOL Tip
+
+- To extend the security update of Windows 10 after October 2025, use massgrave ESU script. It can be extended until 2031, theoretically. Run Terminal/Cmd with admin:
+```batch
+powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "& ([ScriptBlock]::Create((irm https://get.activated.win))) /Z-ESU"
+```
+or
+make it a batch file:
+```batch
+@echo off
+rem Admin priv elevator
+net session >nul 2>&1 || (powershell -c "Start-Process '%~f0' -Verb RunAs" & exit /b)
+rem End of admin elevator
+powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "& ([ScriptBlock]::Create((irm https://get.activated.win))) /Z-ESU"
+```
+or
+[manually](https://massgrave.dev/windows10_eol)
