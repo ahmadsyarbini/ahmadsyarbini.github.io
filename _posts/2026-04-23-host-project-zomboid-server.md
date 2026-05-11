@@ -9,7 +9,7 @@ categories:
 feature_image: "/assets/images/bg-6.jpg"
 ---
 <!-- more -->
-## Server itself
+### 1️⃣ Server itself
 1. Install steamcmd using winget : `winget install Valve.SteamCMD -h` or [manually](https://developer.valvesoftware.com/wiki/SteamCMD).
 2. Create a folder for the server.
 3. Create a cmd/batch file, save it outside of the folder. In this example, the beta branch is being used.
@@ -29,7 +29,7 @@ steamcmd.exe +force_install_dir "%path%" +login anonymous +app_update 380870 -be
 9. Double click the `StartServer64.bat`
 10. Done.
 
-## Network Part
+### 2️⃣ Network Part
 
 ##### Port Forwarding
 
@@ -43,12 +43,12 @@ steamcmd.exe +force_install_dir "%path%" +login anonymous +app_update 380870 -be
 4. Create tunnel using port `16261` UDP protocol, if not yet done.
 5. Done.
 
-## Transfering Save file
+### ❗Transfering Save file
 
 1. The server save files are located at `%userprofile%\Zomboid`. Cannot be moved.
 2. `servertest` can be named differently depending on your config.
 
-## Mods setup
+## 3️⃣ Mods setup
 
 > Stop the server first with command `quit`
 
@@ -56,19 +56,13 @@ steamcmd.exe +force_install_dir "%path%" +login anonymous +app_update 380870 -be
 2. Paste the collection/mod link. Make sure it is made public. Copy the long list of Mods on left side
 3. Go to folder `"%userprofile%\Zomboid\Server`
 4. Find the file `[servername].ini`
-5. Search for:
-```
-Mods=
-```
+5. Search for: `Mods=`
 6. Paste the long list mods in that place
 7. Do the same with Workshop Items on the right side
-8. Paste that workshop item at:
-```
-WorkshopItems=
-```
+8. Paste that workshop item at: `WorkshopItems=`
 9. Start the server
 
-## Tips
+## 📝 Tips
 To customize and select the name of the server, simply put `-servername "insert your server name here"` at this part of the `StartServer64.bat` :
 ```
 ".\jre64\bin\java.exe" <...code...> -servername "insert your server name here"
