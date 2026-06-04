@@ -60,7 +60,7 @@ my preset features :
 
 ### 3️⃣ Put into the root of the directory
 
-#### For Ventoy (Recommended)
+#### Ventoy Method (Recommended)
 
 1. Proceed with ventoy routine. Install through terminal: `winget install Ventoy.Ventoy -h` or [manually](https://www.ventoy.net/)
 2. Install Anyburn through terminal: `winget install PowerSoftware.AnyBurn -h` or [manually](https://www.anyburn.com/)
@@ -70,12 +70,13 @@ my preset features :
 6. Copy paste ISO into ventoy usb drive prepared earlier
 7. Boot into usb drive and proceed with reformat and reinstall [routine]({% post_url 2026-04-21-windows-diskpart-reformat-guide %})
 
-#### For Rufus
+#### Rufus Method
 
 1. Proceed with rufus routine. Install through `winget install Rufus.Rufus -h` or [manually](https://rufus.ie/en/)
 2. Load ISO into the USB through rufus
-3. Put the autounattend.xml file into the `root` of the usb drive. e.g. `F:\`
-4. Boot into usb drive and proceed with reformat and reinstall [routine]({% post_url 2026-04-21-windows-diskpart-reformat-guide %})
+3. Uncheck any custom rufus setting on loading the ISO
+4. Put the autounattend.xml file into the `root` of the usb drive. e.g. `F:\`
+5. Boot into usb drive and proceed with reformat and reinstall [routine]({% post_url 2026-04-21-windows-diskpart-reformat-guide %})
 
 #### ❗Important Mention
 
