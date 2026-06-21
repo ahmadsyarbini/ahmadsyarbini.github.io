@@ -10,6 +10,9 @@ categories:
 feature_image: "/assets/images/bg-6.jpg"
 ---
 <!-- more -->
+
+> 2026-05-26 Update : blomp is not reliable. Using rclone with blomp is messy.
+
 ### 🖥️ Setup Rclone
 
 - Install Rclone using winget : `winget install --id=Rclone.Rclone --source=winget` or [manually](https://rclone.org/)
@@ -31,8 +34,5 @@ endpoint_type = public
 you need to use the path with email to use  
 example : `rclone lsd blomp:your_email@gmail.com`
 
-2026-05-26 Update : blomp is not reliable. Using rclone with blomp is messy.
-
 ---
-
 [Reference](https://support.blomp.com/viewtopic.php?t=4001)
