@@ -62,7 +62,7 @@ $monospacetype: (
 ```
 {% endraw %}
 
-To change `code` typography, go to `_sass/sassline-base/_typography.scss` an adjust:
+To change `code` typography, go to `_sass/sassline-base/_typography.scss` and adjust:
 
 ```scss
   pre {
