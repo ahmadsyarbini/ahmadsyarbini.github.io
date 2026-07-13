@@ -23,7 +23,9 @@ feature_image: "/assets/images/bg-2.jpg"
 5. Done
 
 > 💡Tips  
-How to check if ISOs are legit? Use CRC Checksum at [https://files.rg-adguard.net/](https://files.rg-adguard.net/)
+How to check if ISOs are legit?  
+Make sure the Microsoft website is **THE** Microsoft website  
+You can also use CRC Checksum at [https://files.rg-adguard.net/](https://files.rg-adguard.net/)
 
 ### 2️⃣ Customize autounattend.xml
 
