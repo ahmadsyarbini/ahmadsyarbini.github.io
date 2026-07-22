@@ -19,8 +19,8 @@ feature_image: "/assets/images/bg-1.jpg"
 4. Type `wgcf generate`
 5. Look for the generated conf file in `%userprofile%` or whichever the current directory of the terminal
 6. Open WireGuard and Import the conf file
-![Alt Tag](https://i.imgur.com/7nDuAsa.png)
+![wg1](/assets/images/2026-04/wg1.png)
 7. Done
 
 > Note : Uncheck the "Block untunneled traffic" if you want LAN functionality (Steamlink, Virtual Desktop, NAS)  
-![blockuntunneled](https://i.imgur.com/gnk4aeM.png)
+![wg2](/assets/images/2026-04/wg2.png)
