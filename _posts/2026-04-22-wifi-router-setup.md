@@ -42,9 +42,8 @@ feature_image: "/assets/images/bg-4.jpg"
 7. Input ISP username and password.
 ![router5](/assets/images/2026-04/router5.png)
 8. On the VLAN ID for Malaysia:  
-> Unifi = 500  
- Maxis = 621  
- Digi = 629  
-
 ![router6](/assets/images/2026-04/router6.png)
+> Unifi = 500  
+Maxis = 621  
+Digi = 629  
 9. Setup Wifi SSID and Password.

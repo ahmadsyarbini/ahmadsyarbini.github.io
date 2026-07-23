@@ -8,7 +8,7 @@ feature_image: "/assets/images/bg-1.jpg"
 <!-- more -->
 1. Open terminal
 2. Type `diskutil list` to see all the disks
-3. syntax sequence :  
+3. syntax :  
 ```bash
 diskutil eraseDisk [disk format,APFS, HFS] [Drive Name] /dev/disk#
 ```
