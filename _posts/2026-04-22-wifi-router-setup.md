@@ -46,4 +46,4 @@ feature_image: "/assets/images/bg-4.jpg"
 > Unifi = 500  
 Maxis = 621  
 Digi = 629  
-9. Setup Wifi SSID and Password.
+9. Continue with Wifi SSID and Password setup routine.
