@@ -5,7 +5,7 @@ title: About
 
 Well
 
-![honest-work](https://i.imgur.com/OwvD1q6.png)
+![honest-work](/assets/images/about/honest-work.png)
 
 ## Disclaimer
 
