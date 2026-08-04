@@ -9,7 +9,7 @@ Well
 
 ## Disclaimer
 
-For educational and non-profit
+For educational purpose and non-profit use
 
 ## Donate
 

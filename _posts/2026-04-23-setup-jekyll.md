@@ -16,7 +16,7 @@ feature_image: "/assets/images/bg-6.jpg"
 5. navigate into directory `cd \path`
 6. enter command `jekyll new .`
 7. enter command `bundle install`
-8. enter command `bundle exec jekyll serve -livereload`
+8. enter command `bundle exec jekyll serve --livereload --host 0.0.0.0`
 9. open browser to `http://localhost:4000`
 
 ### Adjusting Values
