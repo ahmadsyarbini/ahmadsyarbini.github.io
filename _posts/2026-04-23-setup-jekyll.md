@@ -127,20 +127,7 @@ if errorlevel 2 (
     exit /b
 )
 
-rem reset git and rebase
-
-rem set variable if not in the same root dir
-rem set "GIT_PATH=path\here"
-
-rem Change to your project directory
-rem if not exist "%GIT_PATH%" (
-rem     echo folder not found. exiting...
-rem     timeout /t 5 /nobreak >nul
-rem     exit /b
-rem )
-rem cd /d "%GIT_PATH%"
-
-cd /d "%~dp0"
+cd /d "%userprofile%\ahmadsyarbini.github.io"
 
 rem --- Delete existing .git folder ---
 if exist ".git" (
@@ -169,7 +156,7 @@ rem --- Add remote if not already set ---
 git remote get-url origin >nul 2>&1
 if %ERRORLEVEL% neq 0 (
     echo Adding remote...
-    git remote add origin https://github.com/ahmadsyarbini/ahmadsyar-scripts.git
+    git remote add origin https://github.com/ahmadsyarbini/ahmadsyarbini.github.io.git
 ) else (
     echo Remote already exists.
 )
