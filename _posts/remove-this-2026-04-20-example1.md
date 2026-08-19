@@ -1,0 +1,10 @@
+---
+title: Contoh template untuk post
+categories:
+- Windows
+feature_image: "https://picsum.photos/2560/600?image=872"
+---
+
+format untuk post page = YYYY-MM-DD-tajuk.md
+
+cubaan push dari laptop

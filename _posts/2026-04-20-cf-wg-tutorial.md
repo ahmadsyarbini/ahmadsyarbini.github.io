@@ -1,0 +1,26 @@
+---
+title: Using Wireguard with Cloudflare Tutorial
+layout: post
+categories:
+- Windows
+feature_image: "/assets/images/bg-1.jpg"
+---
+<!-- more -->
+#### Prepare the wireguard
+
+1. Open terminal with admin and install `winget install --id=WireGuard.WireGuard -e -h` or [manually](https://www.wireguard.com/install/).
+2. Done
+
+#### Prepare the cloudflare warp config file for wireguard
+
+1. Open terminal with admin and install `winget install --id=ViRb3.wgcf -e -h` or [manually](https://github.com/ViRb3/wgcf)
+2. Open normal, non-admin terminal window
+3. Type `wgcf register`
+4. Type `wgcf generate`
+5. Look for the generated conf file in `%userprofile%` or whichever the current directory of the terminal
+6. Open WireGuard and Import the conf file
+![wg1](/assets/images/2026-04/wg1.png)
+7. Done
+
+> Note : Uncheck the "Block untunneled traffic" if you want LAN functionality (Steamlink, Virtual Desktop, NAS)  
+![wg2](/assets/images/2026-04/wg2.png)

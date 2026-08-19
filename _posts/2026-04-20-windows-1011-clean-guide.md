@@ -1,0 +1,113 @@
+---
+title: Windows 10/11 Clean Install Guide
+layout: post
+categories:
+- Windows
+feature_image: "/assets/images/bg-2.jpg"
+---
+<!-- more -->
+### 1️⃣ Download directly from Microsoft website
+
+#### How to download Windows 11 ISO
+
+1. Download ISO from [https://www.microsoft.com/en-us/software-download/windows11](https://www.microsoft.com/en-us/software-download/windows11)
+2. Download using the dropdown for direct download. (Avoid installing and running anything)
+3. Done
+
+#### How to download Windows 10 ISO
+
+1. Go to [Windows 10 Download Website](https://www.microsoft.com/en-us/software-download/windows10)
+2. Use developer tools "Inspect" on your browser to change the screen size to ipad/tablet.
+3. Ctrl + R to reload browser. (Normal reload does not recache)
+4. The dropdown selection will appear and proceed with direct download (Avoid installing and running anything)
+5. Done
+
+> 💡Tips  
+How to check if ISOs are legit?  
+Make sure the Microsoft website is **THE** Microsoft website  
+You can also use CRC Checksum at [https://files.rg-adguard.net/](https://files.rg-adguard.net/)
+
+### 2️⃣ Customize autounattend.xml
+
+1. Go to [https://schneegans.de/windows/unattend-generator/](https://schneegans.de/windows/unattend-generator/)
+2. Fill in the form according to your preferences
+3. Save autounattend.xml
+
+### or
+
+1. Just use my preset : [Right Click Save as](https://raw.githubusercontent.com/ahmadsyarbini/ahmadsyar-scripts/refs/heads/main/others/my-autounattend/autounattend.xml)  
+my preset features :
+* No AI
+* No Copilot
+* No Pre-installed social media app
+* No Pre-installed bloatware
+* No Onedrive
+* No News and Interest
+* No Recall
+* No Ads
+* No Telemetry
+* Offline account
+* No internet requirement
+* No microsoft account requirement
+* TPM, Secure boot and RAM bypass
+* Tidy start menu
+* Rebloat instructions note on desktop
+* Updatable
+* No hack, No modification, only registry entry
+* Disabled "Finish setup your windows with Microsoft Account" after restart
+* Disabled password expiry
+* tldr ; It's like the good old windows xp and windows 7 era
+
+---
+
+### 3️⃣ Put into the root of the directory
+
+#### Ventoy Method (Recommended)
+
+1. Proceed with ventoy routine. Install through terminal: `winget install Ventoy.Ventoy -h` or [manually](https://www.ventoy.net/)
+2. Install Anyburn through terminal: `winget install PowerSoftware.AnyBurn -h` or [manually](https://www.anyburn.com/)
+3. Open Anyburn and Select "Edit Image File"
+4. Insert `autounattend.xml` into ISO
+5. Save ISO
+6. Copy paste ISO into ventoy usb drive prepared earlier
+7. Boot into usb drive and proceed with reformat and reinstall [routine]({% post_url 2026-04-21-windows-diskpart-reformat-guide %})
+
+#### Rufus Method
+
+1. Proceed with rufus routine. Install through `winget install Rufus.Rufus -h` or [manually](https://rufus.ie/en/)
+2. Load ISO into the USB through rufus
+3. Uncheck any custom rufus setting on loading the ISO
+4. Put the autounattend.xml file into the `root` of the usb drive. e.g. `F:\`
+5. Boot into usb drive and proceed with reformat and reinstall [routine]({% post_url 2026-04-21-windows-diskpart-reformat-guide %})
+
+#### ❗Important Mention
+
+> The file must be named exactly `autounattend.xml` or else it will not work
+
+> Unplug ethernet cable and disconnect all kinds of internet connection when setup to prevent update during installation
+
+Recheck the xml file in your preferred text editor. For example, lookout for
+```batch
+reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender Security Center\Systray" /v HideSystray /t REG_DWORD /d 1 /f;
+``` 
+because is it added without option in the generator. Remove it or leave it, your choice.
+
+---
+
+#### Windows 10 EOL Tip
+
+- To extend the security update of Windows 10 after October 2025, use massgrave ESU script. It can be extended until 2031, theoretically. Run Terminal/Cmd with admin:
+```batch
+powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "& ([ScriptBlock]::Create((irm https://get.activated.win))) /Z-ESU"
+```
+or
+make it a batch file:
+```batch
+@echo off
+rem Admin priv elevator
+net session >nul 2>&1 || (powershell -c "Start-Process '%~f0' -Verb RunAs" & exit /b)
+rem End of admin elevator
+powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "& ([ScriptBlock]::Create((irm https://get.activated.win))) /Z-ESU"
+```
+or
+[manually](https://massgrave.dev/windows10_eol)
