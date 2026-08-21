@@ -33,10 +33,10 @@ steamcmd.exe +force_install_dir "%path%" +login anonymous +app_update 380870 -be
 
 1. Proceed with port forwarding routine for public IP not behind CGNAT.
 
-##### Using PlayitGG Tunneling
+##### Using Portwarp Tunneling
 
-1. For ISP with CGNAT, use [Playit.gg](https://playit.gg/).
-2. Install using winget `winget install DevelopedMethods.playit -h` or [manually](https://playit.gg/download).
+1. For ISP with CGNAT, use [Portwarp](https://portwarp.com/).
+2. Install using [My-script](https://github.com/ahmadsyarbini/ahmadsyar-scripts/blob/main/others/sc-downloader-portwarp.bat) or [manually](https://portwarp.com/downloads#download-cli).
 3. Follow the setup routine. (Create account, assign agent, etc)
 4. Create tunnel using port `16261` UDP protocol, if not yet done.
 5. Done.
