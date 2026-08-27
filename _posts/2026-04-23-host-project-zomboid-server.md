@@ -36,7 +36,7 @@ steamcmd.exe +force_install_dir "%directory%" +login anonymous +app_update 38087
 ##### Using Portwarp Tunneling
 
 1. For ISP with CGNAT, use [Portwarp](https://portwarp.com/).
-2. Install using [My-script](https://github.com/ahmadsyarbini/ahmadsyar-scripts/blob/main/others/sc-downloader-portwarp.bat) or [manually](https://portwarp.com/downloads#download-cli).
+2. Install using [My-script](https://github.com/ahmadsyarbini/ahmadsyar-scripts/blob/main/others/sc-downloader-portwarp.cmd) or [manually](https://portwarp.com/downloads#download-cli).
 3. Follow the setup routine. (Create account, assign agent, etc)
 4. Create tunnel using port `16261` UDP protocol, if not yet done.
 5. Done.
